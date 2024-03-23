@@ -23,10 +23,10 @@ export default function Pokedex(){
     return (
         <main>
             <div className="change_language">
-                <button onClick={() => setLanguage('ENGLISH')}>English</button>
-                <button onClick={() => setLanguage('JAPANESE')}>Japanese</button>
-                <button onClick={() => setLanguage('CHINESE')}>Chinese</button>
-                <button onClick={() => setLanguage('FRENCH')}>French</button>
+                <button onClick={() => setLanguage('english')}>English</button>
+                <button onClick={() => setLanguage('japanese')}>Japanese</button>
+                <button onClick={() => setLanguage('chinese')}>Chinese</button>
+                <button onClick={() => setLanguage('french')}>French</button>
             </div>
 
             <ul className="pokedex">
